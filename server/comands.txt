@@ -1,0 +1,7 @@
+npm install knex : instalar knex.
+npx knex --knexfile knexfile.ts migrate:latest : comando para criar banco de dados.
+npx knex --knexfile knexfile.ts seed:run : comando para executar seed
+
+express: facilitador da comunicação HTTP.
+knex: forma de fazer queris sem ser usando o padrão do sql, pode ser aplicado para qualquer banco de dados.
+migrations: a vantagem é que fica facil criar o banco de dados.
